@@ -1,4 +1,4 @@
-FROM icebrian/moodle36mount:latest
+FROM icebrian/moodle36m:latest
 
 COPY init.sh /usr/local/bin/
 RUN chmod u+x /usr/local/bin/init.sh
